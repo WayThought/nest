@@ -1,0 +1,21 @@
+db:
+  mysql:
+    type: 'mysql'
+    host: 'localhost'
+    port: 3306
+    username: 'metis'
+    password: 'someone'
+    database: 'foundermetaworld'
+    entities: ['dist/**/*.entity{.ts,.js}']
+    synchronize: true
+    autoLoadEntities: true
+jwt:
+  secret: 'MN87TGH9TVB6TEV'
+redis:
+  host: '127.0.0.1'
+  port: 6379
+  db: 0
+  password: ''
+  keyPrefix: ''
+auth:
+  singleSignOn: true
